@@ -1,31 +1,32 @@
 
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: "Segoe UI", sans-serif;
     background-color: #1e1e1e;
     color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
-header, footer {
-    background-color: #111;
+header {
+    background-color: #2e8b57;
+    padding: 20px;
     text-align: center;
-    padding: 1em;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 20px;
 }
 .potion {
-    background-color: #2d2d2d;
-    border: 1px solid #444;
+    background-color: #333;
+    border: 2px solid #2e8b57;
+    padding: 15px;
+    margin-bottom: 15px;
     border-radius: 10px;
-    padding: 1em;
-    margin: 1em;
-    max-width: 400px;
-    text-align: center;
 }
-.potion img {
-    width: 64px;
-    height: 64px;
+footer {
+    background-color: #2e8b57;
+    text-align: center;
+    padding: 10px;
 }

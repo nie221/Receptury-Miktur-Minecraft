@@ -3,45 +3,84 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Mikstury Minecraft</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mikstury Minecraft - by KodeX-7</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #1d1d1d;
+            color: #f0f0f0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #00ff00;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 40px;
+        }
+        th, td {
+            border: 1px solid #555;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #2e2e2e;
+        }
+        tr:nth-child(even) {
+            background-color: #2a2a2a;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Mikstury w Minecraft</h1>
-        <p>Stworzone przez KodeX-7 i Zaawansowany System Prexi</p>
-    </header>
-    <main>
-        <section class="potion">
-            <img src="img/strength.png" alt="Mikstura Siły">
-            <h2>Mikstura Siły</h2>
-            <ul>
-                <li>Efekt: +3 obrażeń w walce wręcz</li>
-                <li>Czas trwania: 3:00 min</li>
-                <li>Składniki: Butelka wody, Nether Wart, Blaze Powder</li>
-            </ul>
-        </section>
-        <section class="potion">
-            <img src="img/healing.png" alt="Mikstura Leczenia">
-            <h2>Mikstura Leczenia</h2>
-            <ul>
-                <li>Efekt: Natychmiastowe +4 HP</li>
-                <li>Czas trwania: natychmiastowe</li>
-                <li>Składniki: Butelka wody, Nether Wart, Glistering Melon</li>
-            </ul>
-        </section>
-        <section class="potion">
-            <img src="img/speed.png" alt="Mikstura Szybkości">
-            <h2>Mikstura Szybkości</h2>
-            <ul>
-                <li>Efekt: +20% szybkości ruchu</li>
-                <li>Czas trwania: 8:00 min</li>
-                <li>Składniki: Butelka wody, Nether Wart, Sugar</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>Wersja strony: 1.0</p>
-    </footer>
+    <h1>Mikstury Minecraft</h1>
+    <p>Strona przygotowana przez <strong>KodeX-7</strong> oraz Prexi</p>
+
+    <h2>✅ Mikstury pozytywne</h2>
+    <table>
+        <tr><th>Mikstura</th><th>Efekt</th><th>Czas</th><th>Redstone</th><th>Glowstone</th></tr>
+        <tr><td>Siły</td><td>+130% DMG</td><td>3:00</td><td>8:00</td><td>Siła II (1:30)</td></tr>
+        <tr><td>Szybkości</td><td>+20% prędkości</td><td>3:00</td><td>8:00</td><td>Szybkość II (1:30)</td></tr>
+        <tr><td>Regeneracji</td><td>+1 HP/2.5s</td><td>0:45</td><td>2:00</td><td>Regeneracja II (0:22)</td></tr>
+        <tr><td>Leczenia</td><td>+4 HP</td><td>-</td><td>-</td><td>Leczenie II (8 HP)</td></tr>
+        <tr><td>Odporności na ogień</td><td>Brak obrażeń od ognia</td><td>3:00</td><td>8:00</td><td>-</td></tr>
+        <tr><td>Widzenia w ciemności</td><td>Widzenie jak w dzień</td><td>3:00</td><td>8:00</td><td>-</td></tr>
+        <tr><td>Wodnego oddechu</td><td>Oddychanie pod wodą</td><td>3:00</td><td>8:00</td><td>-</td></tr>
+        <tr><td>Skoku</td><td>Wyższy skok</td><td>3:00</td><td>8:00</td><td>Skok II (1:30)</td></tr>
+        <tr><td>Powolnego opadania</td><td>Brak obrażeń od upadku</td><td>1:30</td><td>4:00</td><td>-</td></tr>
+        <tr><td>Niewidzialności</td><td>Niewidzialność</td><td>3:00</td><td>8:00</td><td>-</td></tr>
+    </table>
+
+    <h2>⚠️ Mikstury negatywne</h2>
+    <table>
+        <tr><th>Mikstura</th><th>Efekt</th><th>Czas</th><th>Redstone</th><th>Glowstone</th></tr>
+        <tr><td>Trucizny</td><td>-1 HP/1.25s</td><td>0:45</td><td>1:30</td><td>Trucizna II (0:22)</td></tr>
+        <tr><td>Słabości</td><td>-4 DMG</td><td>1:30</td><td>4:00</td><td>-</td></tr>
+        <tr><td>Spowolnienia</td><td>-15% prędkości</td><td>1:30</td><td>4:00</td><td>Spowolnienie IV (0:20)</td></tr>
+        <tr><td>Obrażenia</td><td>-6 HP</td><td>-</td><td>-</td><td>Obrażenia II (12 HP)</td></tr>
+    </table>
+
+    <h2>🐢 Mikstura Żółwiego Mistrza</h2>
+    <table>
+        <tr><th>Mikstura</th><th>Efekt</th><th>Czas</th><th>Redstone</th><th>Glowstone</th></tr>
+        <tr><td>Żółwiego Mistrza</td><td>Spowolnienie IV, Odporność III</td><td>0:20</td><td>0:40</td><td>Spowolnienie VI, Odporność IV</td></tr>
+    </table>
+
+    <h2>🔁 Modyfikacje</h2>
+    <ul>
+        <li><strong>Redstone</strong>: wydłuża czas działania mikstury</li>
+        <li><strong>Glowstone</strong>: wzmacnia efekt</li>
+        <li><strong>Proch strzelniczy (Gunpowder)</strong>: mikstura żucana</li>
+        <li><strong>Smoczy oddech (Dragon's Breath)</strong>: mikstura trwała</li>
+    </ul>
+
+    <div class="footer">
+        Stworzone przez KodeX-7 i Zaawansowany System Prexi – 2025
+    </div>
 </body>
 </html>
