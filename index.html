@@ -2,89 +2,139 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Księga Mikstur Minecraft</title>
-  <style>
-    body {
-      background-color: #f9f3e9;
-      font-family: 'Segoe UI', sans-serif;
-      color: #3e2f1c;
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h1 {
-      text-align: center;
-      font-size: 2.5rem;
-      margin-bottom: 30px;
-    }
-    .potion {
-      border: 2px solid #d1bfa7;
-      border-radius: 10px;
-      background-color: #fff8e7;
-      padding: 15px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    .potion img {
-      float: right;
-      width: 64px;
-      height: 64px;
-      margin-left: 15px;
-    }
-    .potion h2 {
-      margin-top: 0;
-    }
-    .clear {
-      clear: both;
-    }
-    .comment {
-      font-style: italic;
-      color: #6b4f36;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikstury Minecraft</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            padding: 2rem;
+        }
+        h1, h2 {
+            color: #00ffae;
+        }
+        .potion {
+            background: #2e2e2e;
+            border: 1px solid #444;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+        .potion img {
+            width: 48px;
+            height: 48px;
+            float: right;
+            margin-left: 1rem;
+        }
+    </style>
 </head>
 <body>
-  <h1>Księga Mikstur Minecraft</h1>
+    <h1>Księga Alchemika Minecraft</h1>
+    <p>Strona stworzona przez KodeX-7 i Zaawansowany System Prexi</p>
+    <h2>Jak działa alchemia w Minecraft?</h2>
+    <p>Alchemia pozwala tworzyć różne mikstury o efektach pozytywnych i negatywnych. Do warzenia potrzebujesz statywu alchemicznego, butelek z wodą i odpowiednich składników.</p>
 
-  <div class="potion">
-    <img src="strength.png" alt="Mikstura Siły">
-    <h2>Mikstura Siły</h2>
-    <p><strong>Efekt:</strong> +130% obrażeń wręcz</p>
-    <p><strong>Czas trwania:</strong> 3:00 (8:00 z Redstone)</p>
-    <p><strong>Receptura:</strong> Butelka wody + Nether Wart → Awkward Potion + Blaze Powder</p>
-    <p class="comment">Idealna na walkę z bossami!</p>
-    <div class="clear"></div>
-  </div>
+    <h2>Ulepszenia mikstur:</h2>
+    <ul>
+        <li><strong>Proch (Gunpowder)</strong>: zmienia miksturę w rzucaną</li>
+        <li><strong>Oddech Smoka (Dragon’s Breath)</strong>: zamienia miksturę rzucaną w trwałą chmurę</li>
+        <li><strong>Czerwony Kamień (Redstone)</strong>: wydłuża czas działania mikstury</li>
+        <li><strong>Pył z Jasnogłazu (Glowstone Dust)</strong>: zwiększa siłę działania</li>
+    </ul>
 
-  <div class="potion">
-    <img src="swiftness.png" alt="Mikstura Szybkości">
-    <h2>Mikstura Szybkości</h2>
-    <p><strong>Efekt:</strong> +20% prędkości ruchu</p>
-    <p><strong>Czas trwania:</strong> 3:00 (8:00 z Redstone)</p>
-    <p><strong>Receptura:</strong> Butelka wody + Nether Wart → Awkward Potion + Sugar</p>
-    <p class="comment">Świetna do eksploracji i ucieczki!</p>
-    <div class="clear"></div>
-  </div>
+    <h2>Lista mikstur:</h2>
 
-  <div class="potion">
-    <img src="healing.png" alt="Mikstura Leczenia">
-    <h2>Mikstura Leczenia</h2>
-    <p><strong>Efekt:</strong> +4 serca natychmiast</p>
-    <p><strong>Receptura:</strong> Butelka wody + Nether Wart → Awkward Potion + Glistering Melon</p>
-    <p class="comment">Ratuje życie w krytycznych momentach.</p>
-    <div class="clear"></div>
-  </div>
-
-  <div class="potion">
-    <img src="fire_resistance.png" alt="Mikstura Odporności na Ogień">
-    <h2>Mikstura Odporności na Ogień</h2>
-    <p><strong>Efekt:</strong> Odporność na ogień i lawę</p>
-    <p><strong>Czas trwania:</strong> 3:00 (8:00 z Redstone)</p>
-    <p><strong>Receptura:</strong> Butelka wody + Nether Wart → Awkward Potion + Magma Cream</p>
-    <p class="comment">Podstawa przetrwania w Netherze!</p>
-    <div class="clear"></div>
-  </div>
+    <div class="potion">
+        <h3>Mikstura Szybkości</h3>
+        <p><strong>Efekt:</strong> Zwiększa prędkość ruchu</p>
+        <p><strong>Receptura:</strong> Butelka wody + Nether Wart + Cukier</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Siły</h3>
+        <p><strong>Efekt:</strong> Zwiększa obrażenia w walce wręcz</p>
+        <p><strong>Receptura:</strong> Butelka wody + Nether Wart + Blaze Powder</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Leczenia</h3>
+        <p><strong>Efekt:</strong> Natychmiastowo przywraca zdrowie</p>
+        <p><strong>Receptura:</strong> Butelka wody + Nether Wart + Melon błyszczący</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Regeneracji</h3>
+        <p><strong>Efekt:</strong> Przywraca zdrowie z czasem</p>
+        <p><strong>Receptura:</strong> Butelka wody + Nether Wart + Łza Ghasta</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Oddychania pod Wodą</h3>
+        <p><strong>Efekt:</strong> Umożliwia dłuższe przebywanie pod wodą</p>
+        <p><strong>Receptura:</strong> Butelka wody + Nether Wart + Ryba Rozdymka</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Niewidzialności</h3>
+        <p><strong>Efekt:</strong> Czyni gracza niewidzialnym</p>
+        <p><strong>Receptura:</strong> Mikstura Widzenia w Ciemności + Fermented Spider Eye</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Widzenia w Ciemności</h3>
+        <p><strong>Efekt:</strong> Pozwala widzieć w ciemności</p>
+        <p><strong>Receptura:</strong> Butelka wody + Nether Wart + Marchew Złota</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Trucizny</h3>
+        <p><strong>Efekt:</strong> Zadaje obrażenia w czasie</p>
+        <p><strong>Receptura:</strong> Butelka wody + Nether Wart + Pająk Fermentowany</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Szkody</h3>
+        <p><strong>Efekt:</strong> Zadaje natychmiastowe obrażenia</p>
+        <p><strong>Receptura:</strong> Mikstura Leczenia + Fermented Spider Eye</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Spowolnienia</h3>
+        <p><strong>Efekt:</strong> Zmniejsza prędkość poruszania się</p>
+        <p><strong>Receptura:</strong> Mikstura Szybkości + Fermented Spider Eye</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Słabości</h3>
+        <p><strong>Efekt:</strong> Zmniejsza siłę ataku</p>
+        <p><strong>Receptura:</strong> Butelka wody + Fermented Spider Eye</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Spowolnionego Opadania</h3>
+        <p><strong>Efekt:</strong> Spowalnia opadanie</p>
+        <p><strong>Receptura:</strong> Butelka wody + Nether Wart + Błona Fantoma</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Mistrza Żółwi</h3>
+        <p><strong>Efekt:</strong> Zwiększa obronę i redukuje prędkość</p>
+        <p><strong>Receptura:</strong> Butelka wody + Nether Wart + Skorupa Żółwia</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Odporności na Ogień</h3>
+        <p><strong>Efekt:</strong> Odporność na ogień i lawę</p>
+        <p><strong>Receptura:</strong> Butelka wody + Nether Wart + Magma Cream</p>
+    </div>
+    
+    <div class="potion">
+        <h3>Mikstura Szczęścia</h3>
+        <p><strong>Efekt:</strong> Zwiększa szansę na lepsze łupy (tylko przez komendę)</p>
+        <p><strong>Receptura:</strong> Tylko przez komendę: /give @p minecraft:potion{Potion:"minecraft:luck"} 1</p>
+    </div>
+    
 </body>
 </html>
